@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Benim Hakkımda | Muhammed Habip Ezici</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page-inner">
+
+  <header class="header">
+    <nav class="nav" aria-label="Ana navigasyon">
+      <a href="index.html" class="nav__logo">Muhammed Habip Ezici</a>
+      <input type="checkbox" id="nav-check" class="nav__checkbox">
+      <label for="nav-check" class="nav__toggle">
+        <span class="nav__toggle-bars" aria-hidden="true"><span></span><span></span><span></span></span>
+        <span>Menü</span>
+      </label>
+      <div class="nav__backdrop" id="nav-backdrop"></div>
+      <ul class="nav__menu">
+        <li><a href="index.html" class="nav__link">Ana Sayfa</a></li>
+        <li><a href="hakkimda.html" class="nav__link">Benim Hakkımda</a></li>
+        <li><a href="calismalarim.html" class="nav__link">Çalışmalarım</a></li>
+        <li><a href="ilgi-alanlarim.html" class="nav__link">İlgi Alanlarım</a></li>
+        <li><a href="odullerim.html" class="nav__link">Ödüllerim</a></li>
+        <li><a href="yeteneklerim.html" class="nav__link">Yeteneklerim</a></li>
+        <li><a href="iletisim.html" class="nav__link">İletişim</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="page-header">
+    <div class="container">
+      <span class="page-header__badge">Tanıtım</span>
+      <h1 class="section__title">Benim Hakkımda</h1>
+      <p class="page-lead">Kendimi tanıttığım video, eğitim bilgilerim ve geleceğe yönelik kariyer hedeflerim bu sayfada yer almaktadır.</p>
+    </div>
+  </div>
+
+  <main class="page page__content">
+    <div class="container about">
+
+      <section class="about__block info-card about__intro-card">
+        <h2 class="about__block-title">Hakkımda</h2>
+        <p>
+          Merhaba, ben <strong>Muhammed Habip Ezici</strong>. Amasya Üniversitesi Kentsel Tasarım ve Peyzaj Mimarlığı Bölümü öğrencisiyim. Eğitim hayatım boyunca kendimi akademik, sosyal ve sportif alanlarda geliştirmeye önem veriyorum. Takım çalışmasına uyum sağlayabilen, disiplinli ve öğrenmeye açık bir kişiliğe sahibim.
+        </p>
+      </section>
+
+      <div class="about__grid">
+        <section class="about__block info-card about__video-card">
+          <h2 class="about__block-title">Tanıtım Videosu</h2>
+          <div class="video-wrapper">
+            <video controls poster="assets/images/video-poster.svg" aria-label="Muhammed Habip Ezici tanıtım videosu">
+              <source src="assets/video/tanitim.mp4" type="video/mp4">
+              Tarayıcınız video oynatmayı desteklemiyor.
+            </video>
+          </div>
+          <p class="media-caption">Kişisel tanıtım videosu — Eğitim sürecim, hedeflerim ve kişiliğim hakkında bilgi verdiğim tanıtım içeriği.</p>
+        </section>
+
+        <section class="about__block detail-card about__career-card">
+          <h2 class="detail-card__title">Kariyer Hedefim</h2>
+          <p>
+            Kentsel Tasarım ve Peyzaj Mimarlığı alanında eğitimimi başarıyla tamamladıktan sonra akademik kariyer yapmayı hedefliyorum. Bilimsel çalışmalar üreterek alanıma katkı sağlamak, araştırma yapmak ve geleceğin peyzaj mimarlarının yetişmesine destek olmak en önemli kariyer hedeflerim arasındadır.
+          </p>
+        </section>
+      </div>
+
+      <section class="about__block about__education">
+        <h2 class="about__block-title">Eğitim Bilgileri</h2>
+        <ul class="info-grid">
+          <li class="info-grid__item">
+            <span class="info-grid__label">Üniversite</span>
+            <span class="info-grid__value">Amasya Üniversitesi</span>
+          </li>
+          <li class="info-grid__item">
+            <span class="info-grid__label">Bölüm</span>
+            <span class="info-grid__value">Kentsel Tasarım ve Peyzaj Mimarlığı</span>
+          </li>
+          <li class="info-grid__item">
+            <span class="info-grid__label">Konum</span>
+            <span class="info-grid__value">Amasya, Türkiye</span>
+          </li>
+        </ul>
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Muhammed Habip Ezici</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
